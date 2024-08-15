@@ -25,16 +25,16 @@
                 <p>Read the book?</p>
                 <div>
                     <label>Yes: </label>
-                    <input type="checkbox" id="checkYes"/>
+                    <input type="checkbox" onclick="read(checkboxYes.checked)" id="checkYes"/>
                 </div>
                 <div>
                     <label>Not yet: </label>
-                    <input type="checkbox" id="checkNo"/>
+                    <input type="checkbox" onclick="read(checkboxNo.checked)" id="checkNo"/>
                 </div>
             </div>
 
             <section>
-                <button type="button">Add Book</button>
+                <button type="button" id="addBook">Add Book</button>
                 <button type="button" id="cancelBtn">Cancel</button>
             </section>
         </form>
