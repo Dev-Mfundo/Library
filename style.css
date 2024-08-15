@@ -1,0 +1,105 @@
+* {
+    border-radius: 15px;
+}
+
+body {
+    background-color: #F5F3C1;
+    color: #333333;
+}
+
+#container {
+    position: relative;
+    background-color: #88D498; 
+}
+
+#form {
+    display: none;
+    width: 300px;
+    height: 350px;
+    background-color: #FFD57E;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+
+form section {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+form section button {
+    display: block;
+    padding: 8px 12px;
+    background-color: #FF8B60;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form section button:hover {
+    background-color: #FF5733;
+    color: white;
+}
+
+form section button:focus {
+    outline: 2px solid #FFD57E;
+}
+
+form nav {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 10px;
+}
+
+form nav input {
+    padding: 8px;
+    font-size: 1rem;
+    border: 2px solid #FF8B60;
+    background-color: #FFF8E1;
+    color: #333333;
+}
+
+form nav label {
+    font-size: 1.2rem;
+    color: #444444; 
+}
+
+#checkList {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#checkList div {
+    display: flex;
+}
+
+#newBook {
+    display: block;
+    padding: 12px 20px;
+    margin:12px auto;
+    background-color: #FF8B60;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#newBook:hover {
+    background-color: #FF5733;
+}
+
+button:hover {
+    background-color: #FF5733;
+    color: white;
+}
+
+button:focus {
+    outline: 2px solid #FFD57E;
+    background-color: #FF5733;
+}
